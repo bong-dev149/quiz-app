@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <h1 id="app-title">Quiz Time</h1>
+    <div class="main-container">
+    </div>
+    <div class="play-container" style="display: none;">
+      <div class="media-container"></div>
+      <div class="play-area"></div>
+    </div>
+    <footer>This web app is developed by Aditya Sadhukhan &#169; 2021</footer>
+
+    <!-- Holder block -->
+    <div class="enter-the-game-block" style="display: none">
+      <p id="show-name-error"><span style="opacity: 0">Hi</span></p>
+      <form id="player-details" action="" onsubmit="init(event)">
+        <input type="text" id="player-name" placeholder="Enter your name" />
+        <button id="play-btn" type="submit">P l a y</button>
+      </form>
+    </div>
+
+    <div class="ques-block" style="display: none">
+      <div class="timer"></div>
+      <div class="question"></div>
+      <div class="ans-options">
+        
+      </div>
+      <div class="next">
+        <button id="next-btn" onclick="next()">Next</button>
+      </div>
+    </div>
+
+    <div class="game-over-block" style="display: none">
+      <div class="score-showcase"></div>
+      <div class="player-msg"></div>
+      <button id="play-again" onclick="location.reload()">Play agian</button>
+    </div>
+
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>
+
+

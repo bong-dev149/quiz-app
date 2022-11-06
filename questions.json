@@ -1,0 +1,72 @@
+[
+  {
+    "stmt": "What is the largest counstry in the world?",
+    "media": "",
+    "options": ["India", "China", "USA", "Russia"],
+    "correctAns": 4
+  },
+  {
+    "stmt": "Who is the person sitting beside Gandhiji?",
+    "media": "./img/2.jpg",
+    "options": [
+      "Prince Philip",
+      "Louis Mountbatten",
+      "Charlie Chaplin",
+      "Sir Arthur Conan Doyle"
+    ],
+    "correctAns": 3
+  },
+  {
+    "stmt": "Who is the director of this famous movie?",
+    "media": "./img/3.mp4",
+    "options": [
+      "Mrinal Sen",
+      "Satyajit Ray",
+      "Rittwik Ghatak",
+      "Premendra Mitra"
+    ],
+    "correctAns": 3
+  },
+  {
+    "stmt": "What is the capital of New Zealand?",
+    "media": "./img/4.png",
+    "options": ["Wellington", "Manchester City", "Washington DC", "Nashvill"],
+    "correctAns": 1
+  },
+  {
+    "stmt": "What is the name of this band?",
+    "media": "./img/5.mp3",
+    "options": ["Linking Park", "Imagine Dragons", "One Direction", "Queen"],
+    "correctAns": 2
+  },
+  {
+    "stmt": "When was Netflix founded ?",
+    "media": "./img/6.png",
+    "options": ["2016", "2004", "1997", "1998"],
+    "correctAns": 3
+  },
+  {
+    "stmt": "What country has the most islands?",
+    "media": "",
+    "options": ["India", "Sweeden", "USA", "Philipines"],
+    "correctAns": 2
+  },
+  {
+    "stmt": "Who is this littile guy?",
+    "media": "./img/8.jpg",
+    "options": ["Jeff Bezos", "Sundar Pichai", "Elon Musk", "Steve Jobs"],
+    "correctAns": 3
+  },
+  {
+    "stmt": "What is the name of the oldest bengali band?",
+    "media": "./img/9.mp3",
+    "options": ["Mohiner Ghoraguli", "Cactus", "Bhoomi", "Fossils"],
+    "correctAns": 1
+  },
+  {
+    "stmt": "What is the smallest counstry in the world?",
+    "media": "",
+    "options": ["Denmark", "Vatican City", "Japan", "Nepal"],
+    "correctAns": 2
+  }
+]
