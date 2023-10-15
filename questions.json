@@ -7,7 +7,7 @@
   },
   {
     "stmt": "Who is the person sitting beside Gandhiji?",
-    "media": "../public/img/2.jpg",
+    "media": "./public/img/2.jpg",
     "options": [
       "Prince Philip",
       "Louis Mountbatten",
@@ -18,7 +18,7 @@
   },
   {
     "stmt": "Who is the director of this famous movie?",
-    "media": "../public/vid/3.mp4",
+    "media": "./public/vid/3.mp4",
     "options": [
       "Mrinal Sen",
       "Satyajit Ray",
@@ -29,19 +29,19 @@
   },
   {
     "stmt": "What is the capital of New Zealand?",
-    "media": "../public/img/4.png",
+    "media": "./public/img/4.png",
     "options": ["Wellington", "Manchester City", "Washington DC", "Nashvill"],
     "correctAns": 1
   },
   {
     "stmt": "What is the name of this band?",
-    "media": "../public/aud/5.mp3",
+    "media": "./public/aud/5.mp3",
     "options": ["Linking Park", "Imagine Dragons", "One Direction", "Queen"],
     "correctAns": 2
   },
   {
     "stmt": "When was Netflix founded ?",
-    "media": "../public/img/6.jpg",
+    "media": "./public/img/6.jpg",
     "options": ["2016", "2004", "1997", "1998"],
     "correctAns": 3
   },
@@ -53,13 +53,13 @@
   },
   {
     "stmt": "Who is this guy?",
-    "media": "../public/img/8.jpg",
+    "media": "./public/img/8.jpg",
     "options": ["Jeff Bezos", "Sundar Pichai", "Elon Musk", "Steve Jobs"],
     "correctAns": 3
   },
   {
     "stmt": "What is the name of the oldest bengali band?",
-    "media": "../public/aud/9.mp3",
+    "media": "./public/aud/9.mp3",
     "options": ["Mohiner Ghoraguli", "Cactus", "Bhoomi", "Fossils"],
     "correctAns": 1
   },

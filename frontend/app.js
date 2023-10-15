@@ -127,6 +127,8 @@ function showQuestion(n) {
     </audio>`;
     }
     mediaContainer.innerHTML = mediaOut;
+  } else {
+    mediaContainer.innerHTML = "<img";
   }
 
   quesContainer.innerHTML = questions[n].stmt;
