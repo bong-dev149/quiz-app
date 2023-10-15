@@ -13,7 +13,7 @@ body {
     to right,
     rgb(242, 112, 156),
     rgb(255, 148, 114)
-  ),url(../public/img/bg.jpg);
+  ),url(./public/img/bg.jpg);
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-position: center;
@@ -107,7 +107,7 @@ video ,img,audio{
   padding: 2%;
 }
 .media-container {
-  background: url(../public/img/5276.jpg) center center/cover no-repeat;
+  background: url(./public/img/5276.jpg) center center/cover no-repeat;
   border-radius: 50px;
   border: white 3px solid;
   display: grid;

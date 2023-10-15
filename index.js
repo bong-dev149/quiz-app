@@ -9,6 +9,10 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
+app.get('/',(req, res) => {
+  res.status(200).send('Welcome to quiz app')
+})
+
 app.get('/questions', (req, res) => {
     res.status(200).json(questions);
 });
