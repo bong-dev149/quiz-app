@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(242, 112, 156),
+    rgb(255, 148, 114)
+  ),url(../public/img/bg.jpg);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+video ,img,audio{
+  border: white 10px solid;
+  background-color: white;
+  border-radius: 30px;
+  height: 95%;
+}
+
+.main-container {
+  margin-top: 10%;
+}
+
+#app-title {
+  color: white;
+  font-family: "Fredoka One", cursive;
+  font-size: 5rem;
+  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+  position: absolute;
+  top: 0;
+  background-image: linear-gradient(to right, #ff9966, #ff5e62);
+  width: 100%;
+  padding: 0.5%;
+  text-align: center;
+}
+
+.play-area {
+  height: 80%;
+  width: 60%;
+  /* background: yellow; */
+  margin-top: -10%;
+  display: grid;
+  place-items: center;
+}
+
+#player-details {
+  display: grid;
+  place-items: center;
+}
+
+#player-name,
+#play-btn{
+  height: 4rem;
+  width: 30rem;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  padding: 5%;
+  font-size: larger;
+}
+
+#play-btn{
+  width: 10rem;
+  margin-top: 5%;
+  background-image: linear-gradient(to right, #ff9966, #ff5e62);
+  transition: all 0.5s ease-in-out;
+  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+  color:white;
+  font-size: larger;
+  cursor: pointer;
+}
+
+#play-btn:hover {
+  border-radius: 0;
+}
+
+#play-btn:active{
+  background-image:inear-gradient(to right, #ffab66c4, #cc4975cb);
+}
+
+
+
+#show-name-error {
+  font-family: sans-serif;
+  color: white;
+  margin: 5%;
+}
+
+
+.play-container {
+  margin-top: -5%;
+  height: 75vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 2%;
+}
+.media-container {
+  background: url(../public/img/5276.jpg) center center/cover no-repeat;
+  border-radius: 50px;
+  border: white 3px solid;
+  display: grid;
+  place-items: center;
+}
+
+.play-area {
+  background-image: linear-gradient(to right, #ff9966, #ff5e62);
+  color: white;
+  border-radius: 50px;
+  padding: 1%;
+  display: grid;
+  place-items: center;
+  height: 90%;
+  justify-self: center;
+  align-self: center;
+  margin-top: 0.5%;
+  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+}
+
+
+.question {
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5rem;
+  padding: 5%;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#option-form {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.2rem;
+  width: 120%;
+  display: grid;
+  grid-template-columns: auto repeat(4);
+}
+
+.cont {
+  margin-left: 3%;
+}
+
+
+input[type="radio"] {
+  outline: none;
+  -moz-outline: none;
+  height: 20px;
+  width: 20px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: white;
+  border-radius: 50px;
+}
+
+input[type="radio"]:checked {
+  background-color: #889cf5;
+  background-image: linear-gradient(315deg, #5a73df 0%, #77eed8 74%);
+  filter: drop-shadow(1px 2px 4px rgba(0,0,0,0.1));
+
+}
+
+.timer {
+  background-image: linear-gradient(315deg, #5f7cff 0%, #27ddbc 74%);
+  padding: 5%;
+  font-family: "Fredoka One", cursive;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#next-btn {
+  width: 30rem;
+  background-image: linear-gradient(315deg, #5a73df 0%, #77eed8 74%);
+  color: white;
+  font-size: 1.5rem;
+  padding: 1%;
+  filter: drop-shadow(2px 0px 4px rgba(0,0,0,0.2));
+  outline: none;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.8s ease-in-out;
+  cursor: pointer;
+} 
+
+#next-btn:hover {
+  background-image: linear-gradient(-315deg, #5a73df 0%, #77eed8 74%);
+}
+
+
+.score-showcase {
+  font-family: "Fredoka One", cursive;
+  font-size: 8rem;
+}
+
+.player-msg {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5rem;
+}
+
+#play-again {
+  background-image: linear-gradient(315deg, #5a73df 0%, #77eed8 74%);
+  color: white;
+  font-size: 1.5rem;
+  padding: 2% 5%;
+  filter: drop-shadow(2px 0px 4px rgba(0,0,0,0.2));
+  outline: none;
+  border-radius: 50px;
+  border: none;
+  text-shadow: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#play-again:hover {
+  background-image: linear-gradient(-315deg, #5a73df 0%, #77eed8 74%);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: sans-serif;
+}
+
