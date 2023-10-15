@@ -15,7 +15,7 @@ const mediaContainer = document.querySelector(".media-container");
 
 
 
-const serverAddr = "http://localhost:3000";
+const serverAddr = "https://quiz-time-pi4u.onrender.com";
 // useful variables
 let playerName,
   questions,
